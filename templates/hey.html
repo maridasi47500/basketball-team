@@ -1,9 +1,56 @@
+{% extends 'base.html' %}
+  {% block content %}
+
+
+
+
 <h1># basketball-team</h1>
 <p>posts sur actio cable où tout post apparait en temps réel </p>
 <p>on peut publier plusieurs post:</p>
 <p>post avec/sans photo qui contient quelque chose de nouveau et sur quelqu'un qui fait fait un sport, une rumeur/info, </p>
 <p>post avec photo avec quelqu'un en train de faire un sport</p>
 <p>post avec photo ou quelqu'un qui fait du sport dire seulement bonjour dans ce post</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+<img src="{{ url_for('static', filename='images/hello.png') }}" class="image card-img-top" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">publié à 00:00AM</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+<img src="{{ url_for('static', filename='images/winner.png') }}" class="image card-img-top" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">publié à 01:00AM</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+<img src="{{ url_for('static', filename='images/player.png') }}" class="image card-img-top" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">publié à 02:00AM</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <p>ajouter un , affichage i18n
 
 Me mettre à jour
@@ -11,3 +58,4 @@ Affichage du lieu : coordonnées, nom de pays, nom de ville, code postal, rue
 
 Affichage de l'heure et de la date
 </p>
+{% endblock %}
