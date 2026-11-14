@@ -7,3 +7,5 @@ post avec photo, commit to it , i18n display
 - place display display i18n coordonnes, nom pays, nom ville, zip, street
 - time display date display
 - 3 posts (with pic or no ): update post (update 1 person), commit post, hello posts (hello to some1)
+- usual action : publier des photos
+- unusual : publierdesphotos a des moments inattendues de l'aube au crepuscule
