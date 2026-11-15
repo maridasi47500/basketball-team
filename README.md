@@ -9,3 +9,10 @@ post avec photo, commit to it , i18n display
 - 3 posts (with pic or no ): update post (update 1 person), commit post, hello posts (hello to some1)
 - usual action : publier des photos
 - unusual : publierdesphotos a des moments inattendues de l'aube au crepuscule
+| il y a  | oui non/quoi |
+| --- | --- |
+| boule de crystal  | non  |
+| art of coding  | non  |
+| fake social network | non |
+| timestamped items | oui |
+| local database | oui |
